@@ -3350,7 +3350,7 @@ wilder#pcre2_highlighter([{opts}])  *wilder#pcre2_highlighter()*
             Otherwise, uses a Python |remote-plugin| function to retrieve the
             results.
 
-            The Lua pcre2 package is required this option is set to 'lua'.
+            The Lua pcre2 package is required if this option is set to 'lua'.
             The pcre2 package source can be found at
             https://github.com/mah0x211/lua-pcre2 and can be installed with
             `luarocks install pcre2`.
