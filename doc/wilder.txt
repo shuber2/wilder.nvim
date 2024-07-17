@@ -246,7 +246,7 @@ subsequent pipes.
                                     *wilder-pipeline-v:false*
 Returning the |v:false| in a pipe will cause the pipeline to stop and return
 |v:false|. |v:false| indicates to wilder to not continue on with the pipeline,
-and treat it as though there are no completions. use this to return early from
+and treat it as though there are no completions. Use this to return early from
 a pipeline based on certain conditions.
 
 Example:
@@ -569,7 +569,7 @@ wilder#python_fuzzy_delimiter_pattern([{options}])
             string into characters. Each character either follows directly
             from the previous one, or is the start of a delimited region.
             The start of a delimited region is either
-            1. a `delimiter` character followed by a character
+            1. A `delimiter` character followed by a character
             2. An uppercase character
 
             e.g.
