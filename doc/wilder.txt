@@ -502,8 +502,8 @@ wilder#subpipeline({f})             *wilder#subpipeline()*
                   \ ]})
                   \ ]),
 <
-            This pipeline will return completions from the history is {x}
-            which are fuzzily filtered using |wilder#vim_fuzzy_filt()|
+            This pipeline will return completions from the history which are
+            then fuzzily filtered using |wilder#vim_fuzzy_filt()|.
 
                                     *wilder#history()*
 wilder#history([{max_num}, [{cmdtype}]])
