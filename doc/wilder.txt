@@ -217,7 +217,7 @@ and how theye are handled.
 
 A pipe can throw an exception which will also cause the pipeline to stop.
 
-wilder provides some built-in pipes Combine these pipes with your own
+wilder provides some built-in pipes. Combine these pipes with your own
 functions to create a custom pipeline. In particular, use |wilder#branch| to
 add control flow to your pipeline. See |wilder-pipeline-pipe|s for the list of
 pipes.
